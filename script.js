@@ -23,6 +23,7 @@ function showSpecial () {
     )
     .then(
       text => document.querySelector("#special").innerHTML = text,
+      document.querySelector("#special h3").style.position = "absolute"
     )
     .catch(
       error => document.querySelector("#special").innerHTML = "Coming Soon!"
