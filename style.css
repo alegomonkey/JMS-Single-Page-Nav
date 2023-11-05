@@ -80,9 +80,5 @@ body {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	background-size: contain;
-}
-
-h3 {
-	position: absolute;
+	background-size: contain;	
 }
