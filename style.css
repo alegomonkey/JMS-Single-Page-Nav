@@ -76,10 +76,13 @@ body {
 #special{
 	border: solid black 2px;
 	border-radius: 1em;
-	height: 15vh;
+	height: 13vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	overflow: hidden;
 	background-size: contain;
+}
+
+#special h3 {
+	position: absolute; 
 }
