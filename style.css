@@ -74,15 +74,12 @@ body {
 	}
 
 #special{
-  border: solid black 2px;
-  border-radius: 1em;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
+	border: solid black 2px;
+	border-radius: 1em;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	
-}
-
-#special p {
 	overflow: hidden;
+	background-size: contain;
 }
