@@ -27,4 +27,5 @@ function showSpecial () {
     .catch(
       error => document.querySelector("#special").innerHTML = "Coming Soon!"
     );
+    
 }
